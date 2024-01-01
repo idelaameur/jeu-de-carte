@@ -1,0 +1,23 @@
+#cartes-container {
+    display: grid;
+    grid-template-columns: repeat(13, auto);
+    gap: 10px;
+    justify-content: center;
+}
+
+.carte {
+    width: 75px; 
+    height: 100px; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.coeur { background-image: url('Coeur.png'); }
+.pique { background-image: url('Pique.png'); }
+.carreau { background-image: url('Carreau.png'); }
+.trefle { background-image: url('Trefle.png'); }
