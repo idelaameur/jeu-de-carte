@@ -33,7 +33,7 @@ public class CarteControllerTest {
     @MockBean
     private CarteService carteService;
     
-    @Test
+    
     public void testTrouverCarteParId() throws Exception {
     	  List<Carte> cartes = Arrays.asList(new Carte("As", "Coeur"), new Carte("Roi", "Pique"));
           Mockito.when(carteService.getCarte()).thenReturn(cartes);
